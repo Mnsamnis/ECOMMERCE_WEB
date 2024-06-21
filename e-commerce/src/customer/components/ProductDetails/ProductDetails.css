@@ -1,0 +1,40 @@
+/* Mini Images Container */
+.mini-images {
+   display: flex;
+   justify-content: space-around;
+   margin-top: 10px;
+ }
+ 
+ /* Mini Image */
+ .mini-image {
+   width: 100px; /* Adjust size as needed */
+   height: 100px; /* Adjust size as needed */
+   margin: 0 5px; /* Adjust margin as needed */
+   border: 1px solid #ccc; /* Example border */
+   overflow: hidden; /* Hide overflow content */
+   transition: transform 0.3s ease; /* Add smooth transition */
+ }
+ 
+ /* Zoom effect on hover */
+ .mini-image:hover {
+   transform: scale(2.5); /* Adjust scale factor as needed */
+ }
+ 
+
+ 
+ /* Center View */
+ .center-view {
+   /* Use CSS to crop and position the image to simulate center view */
+   clip-path: polygon(25% 25%, 75% 25%, 75% 75%, 25% 75%);
+ }
+ 
+
+ .top-alert {
+  position: fixed;
+  top: 10%;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 9999;
+  width: 100%;
+  max-width: 500px; /* Adjust max-width as needed */
+}
