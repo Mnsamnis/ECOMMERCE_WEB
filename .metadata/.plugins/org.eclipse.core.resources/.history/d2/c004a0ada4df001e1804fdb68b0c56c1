@@ -1,0 +1,5 @@
+package com.funky.response;
+
+public class PaymentLinkResponse {
+
+}

@@ -1,0 +1,5 @@
+package com.funky.controllers;
+
+public class PaymentController {
+
+}
